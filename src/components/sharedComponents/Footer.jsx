@@ -7,7 +7,7 @@ import {FaLocationDot } from "react-icons/fa6";
 const FooterItems = () => {
     return (
         <div>
-            <Footer container className="bg-slate-50">
+            <Footer container className="bg-slate-200 ">
                 <div className="w-11/12 mx-auto">
                     <div className="grid w-full justify-between sm:flex sm:justify-between md:flex md:grid-cols-1">
                         
@@ -18,7 +18,7 @@ const FooterItems = () => {
                                     alt="barber-shop Logo"
                                     name="barber-shop"
                                 />
-                                <p className="flex gap-2 text-xs mt-5 text-gray-600"><FaLocationDot className="mt-1"></FaLocationDot> <span>H#000 (0th Floor), Road #00,
+                                <p className="flex gap-2 text-xs mt-5 text-gray-400"><FaLocationDot className="mt-1"></FaLocationDot> <span>H#000 (0th Floor), Road #00,
                                     New DOHS, Mohakhali, Dhaka, Bangladesh
                                 </span></p>
                                 {/* <Footer.Copyright href="#" by="Jerin's Parler" year={2024} /> */}

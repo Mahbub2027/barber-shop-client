@@ -7,16 +7,16 @@ import logo from '../../assets/logo.png';
 const NavbarItem = () => {
     const navItems = <>
         <NavLink to='/'><li>Home</li></NavLink>
-        <NavLink to='/about'><li>About</li></NavLink>
-        <NavLink to='/'><li>BLogs</li></NavLink>
-        <NavLink to='/'><li>Contact</li></NavLink>
+        <NavLink to='/portfolio'><li>Our Portfolio</li></NavLink>
+        <NavLink to='/ourteam'><li>Our Team</li></NavLink>
+        <NavLink to='/contact'><li>Contact Us</li></NavLink>
     </>
 
 
     return (
-        <div>
+        <div className="w-full bg-slate-50">
             
-            <Navbar fluid rounded className="bg-slate-50">
+            <Navbar fluid rounded className="w-11/12 mx-auto bg-slate-50">
                 <Navbar.Brand href="https://flowbite-react.com">
                     <img src={logo} className="mr-3 h-6 sm:h-9" alt="Flowbite React Logo" />
                     
